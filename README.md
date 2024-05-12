@@ -1,11 +1,11 @@
 const NFTs = [];
 
 // Function to mint NFTs
-function mintNFT(_name, _colorType, _vehiclesType, _placeType,_accessories) {
+function mintNFT(_name, _colorType, _vehiclesType,_placeType,_accessories) {
     const NFT = {
         "name": _name,
         "colorType": _colorType,
-        "vehiclesType": _vehiclesType,
+    "vehiclesType":_vehiclesType,
         "placeType": _placeType,
         "accessories":_accessories
     };
